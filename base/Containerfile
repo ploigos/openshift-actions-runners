@@ -1,4 +1,5 @@
-FROM fedora:35
+FROM redhat/ubi8:8.6-754
+#FROM fedora:35
 
 # Adapted from https://github.com/bbrowning/github-runner/blob/master/Dockerfile
 RUN dnf -y upgrade --security && \
