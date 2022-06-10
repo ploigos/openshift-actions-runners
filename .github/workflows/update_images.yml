@@ -28,7 +28,6 @@ jobs:
     name: Update images
     runs-on: ubuntu-20.04
     strategy:
-      max-parallel: 10
       matrix:
         parent:
           - redhat/ubi8:8.6-754
