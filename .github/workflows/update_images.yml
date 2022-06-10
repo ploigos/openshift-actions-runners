@@ -137,8 +137,8 @@ jobs:
           dockerfiles:
             ${{ env.BASE_IMG_DIR }}/Containerfile
           build-args: |
-            - PARENT_IMG=redhat/ubi8:8.6-754
-            
+            - BASE_IMG=redhat/ubi8:8.6-754
+
       - name: Push base image
         if: steps.commit_data.outputs.is_pr == 'false' && env.BASE_CHANGED == 'true'
         uses: redhat-actions/push-to-registry@v2

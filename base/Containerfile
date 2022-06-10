@@ -1,5 +1,5 @@
-ARG PARENT_IMG=
-FROM ${PARENT_IMG}
+ARG BASE_IMG=redhat/ubi8:8.6-754
+FROM $BASE_IMG AS runner
 #FROM redhat/ubi8:8.6-754
 #FROM fedora:35
 
