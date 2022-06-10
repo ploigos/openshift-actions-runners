@@ -1,5 +1,5 @@
-ARG BASE_IMG=redhat/ubi8:8.6-754
-FROM $BASE_IMG AS runner
+ARG BASE_IMG=fedora:35
+FROM $BASE_IMG
 #FROM redhat/ubi8:8.6-754
 #FROM fedora:35
 
