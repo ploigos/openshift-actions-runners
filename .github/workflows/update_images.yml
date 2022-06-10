@@ -6,7 +6,7 @@ on:
 
 
 env:
-  REGISTRY_URL: quay.io/redhat-github-actions
+  REGISTRY_URL: quay.io/aagreen
 
   BASE_IMG_NAME: runner
   BASE_IMG_DIR: base
